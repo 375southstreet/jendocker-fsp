@@ -3,8 +3,14 @@
   <fullName>admin</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwt57LSFIhcl7zhLChaUMCxVO9Yr5OE4kHI6rs8Aej7GWaBDu4IX99ADQXBYKTro8A9h7Tlb55hIPWccvaZtULeA==}</apiToken>
+      <apiToken>{AQAAABAAAAAwpiG7fnUjDl3STrG27KS4+nWMfGU3GP6AJINUKpxfkkhWRIm/jeFB7ArAXLFV4U0shmSWqjhc1TZz3S2SQ735lQ==}</apiToken>
     </jenkins.security.ApiTokenProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.18">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.63">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
     <hudson.model.MyViewsProperty>
       <views>
         <hudson.model.AllView>
@@ -16,6 +22,9 @@
         </hudson.model.AllView>
       </views>
     </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.2.0">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
     <hudson.model.PaneStatusProperties>
       <collapsed/>
     </hudson.model.PaneStatusProperties>
@@ -23,7 +32,10 @@
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$85ivrR92qMmHMW2HSvVoMO8GoEzeM9Z5pChnBZVgbhwejP8QuHD2u</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$SSkxndCUNyknzhfnlCZMvOE193vZXUwsdE7qMKhE7k5dv7ZIWE1lW</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21">
+      <emailAddress>admin@admin.com</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
   </properties>
 </user>
